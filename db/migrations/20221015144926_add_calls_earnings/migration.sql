@@ -1,0 +1,2 @@
+-- AlterTable
+ALTER TABLE `Call` ADD COLUMN `earnings` DOUBLE NOT NULL DEFAULT 0;

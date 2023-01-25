@@ -1,0 +1,5 @@
+-- AlterTable
+ALTER TABLE `Token` MODIFY `type` ENUM('RESET_PASSWORD', 'VERIFY_EMAIL') NOT NULL;
+
+-- AlterTable
+ALTER TABLE `User` ADD COLUMN `emailVerifiedAt` DATETIME(3) NULL;
